@@ -1,0 +1,56 @@
+.user-home {
+    justify-self: center;
+    align-self: center;
+    background-color: #f6f6f6;
+    height: auto;
+    width: 100%;
+    
+  }
+
+
+  
+  .user-home button{
+    background-color: #00cc7a;
+    border: 1px #00cc7a solid;
+    border-radius: 15px;
+    color: white;
+    width: 50vmax;
+    height: 10vmax; 
+    font-size: 5vmax;
+  }
+  
+
+  .user-home img{
+    width: 90%;
+    height: auto;
+    padding-top: 10%;
+  }
+
+  .MyPro{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .MyDon{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+
+  .MyPay{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .MySet{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 5%;
+  }
