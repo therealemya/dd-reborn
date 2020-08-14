@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/DDLogo.png';
-import './UserHome.css'
+import './UserHome.css';
+
 export default class UserHome extends Component{
     render() {
         return(
@@ -13,24 +14,24 @@ export default class UserHome extends Component{
                 <div className="userLogo">
                     <img src={logo} alt="logo" />
                     </div>
-                    {/* <hr/> */}
+                    <hr/>
                     <div className ="Border">
                     <div className ="MyPro">
 
                     <h5>My Profile</h5>
                     </div>
                     </div>
-{/* 
-                    <hr/> */}
+ 
+                    <hr/> 
                             <div className = "MyDon">
-                    <h5><Link to='/user/mydonations'>My Donations</Link></h5>
+                    <h5><Link to='/user/mydonations' className="user-link">My Donations</Link></h5>
                             </div>
-                    {/* <hr/> */}
+                    <hr/> 
                              <div className = "MyPay">
-                    <h5><Link to="user/payments">Payment</Link></h5>
+                    <h5><Link to="user/payments" className="user-link">Payment</Link></h5>
                     </div>
 
-                    {/* <hr/> */}
+                    <hr/>
                             <div className = "MySet">
                     <h5>Settings</h5>
                       
