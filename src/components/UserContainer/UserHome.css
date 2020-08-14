@@ -17,7 +17,7 @@
 
   
   .user-home button{
-        width: 15em;
+        width: 12em;
         height: 5em;
         margin-top:-6em;
         background-color: #00cc7a;
@@ -30,7 +30,7 @@
   
 
   .user-home img{
-    width: 100%;
+    width: 90%;
     height: auto;
     padding-top: 10%;
     display: flex;
