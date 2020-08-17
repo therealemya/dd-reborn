@@ -29,6 +29,16 @@ export default function MediaCard() {
     <div className="Ebutton">
       <Link to="/user" id="user-home-link"><button>Current User</button></Link>
       </div>
+      <center> 
+              
+              <div className="Dfill">  
+           <p>Donations</p>
+           </div>
+           <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
@@ -69,8 +79,10 @@ export default function MediaCard() {
         </Typography>
       </CardContent>
     </Card>
-
+</center>
   </div>
+  
+ 
 
 
   );
