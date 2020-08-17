@@ -9,6 +9,8 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import ProgressBar from "./progressbar";
 import "./DonationExplorer.css";
+import { Link } from 'react-router-dom';
+
 
 const useStyles = makeStyles({
   root: {
@@ -23,6 +25,10 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
+    <div className="donation-explorer-page">
+    <div className="Ebutton">
+      <Link to="/user" id="user-home-link"><button>Current User</button></Link>
+      </div>
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
@@ -51,32 +57,21 @@ export default function MediaCard() {
         <ProgressBar />
       </CardActions>
       <CardContent className="progresstext">
-        <Typography
-          className="alignleft"
-          variant="body2"
-          color="textSecondary"
-          component="p"
-        >
+        <Typography className="alignleft" variant="body2" color="textSecondary"component="p">
           215 <br /> Donors
         </Typography>
 
-        <Typography
-          className="aligncenter"
-          variant="body2"
-          color="textSecondary"
-          component="p"
-        >
-          $2500 <br /> Raised
+        <Typography className="aligncenter" variant="body2" color="textSecondary"component="p">
+        $2500 <br /> Raised
         </Typography>
-        <Typography
-          className="alignright"
-          variant="body2"
-          color="textSecondary"
-          component="p"
-        >
+        <Typography className="alignright" variant="body2" color="textSecondary"component="p">
           $10000 <br /> Goal
         </Typography>
       </CardContent>
     </Card>
+
+  </div>
+
+
   );
 }
