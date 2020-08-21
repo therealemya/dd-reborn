@@ -22,7 +22,7 @@ export default class UserHome extends Component{
                     <div className ="Border">
                     <div className ="MyPro">
 
-                    <h5>My Profile</h5>
+                    <h5><Link to='/user/Profile' className="user-link">Profile</Link></h5>
                 
                     </div>
                     </div>
